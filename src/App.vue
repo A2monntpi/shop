@@ -5,9 +5,15 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
  <router-view />
+  <div class="test">
+   tedasdasdadsdsadddfsdtsdfsdf fffdsfsdf scss
+  </div>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
+.test{
+  color:$priceColor;
+}
 header {
   line-height: 1.5;
   max-height: 100vh;
