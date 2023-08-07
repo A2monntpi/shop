@@ -3,7 +3,7 @@ import './assets/main.css'
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
 
-import {getCategoryAPI}from '@/apis/testAPI.JS'
+
 import App from './App.vue'
 import router from './router'
 
@@ -13,6 +13,7 @@ app.use(createPinia())
 app.use(router)
 
 app.mount('#app')
+import {getCategoryAPI}from '@/apis/testAPI.JS'
 
 getCategoryAPI().then(res =>{
     console.log(res)
